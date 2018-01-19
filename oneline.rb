@@ -52,5 +52,5 @@ elsif (ARGV[1].nil?&&ARGV[2].nil?) && ARGV[0] == "help"
 				type.each{|x| print "\033[96m-#{x}-\e[0m"}
 				puts " "
 else
-			payload(ARGV[0],ARGV[1],ARGV[0])
+			payload(ARGV[0],ARGV[1],ARGV[2])
 end
